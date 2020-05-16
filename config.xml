@@ -5,12 +5,12 @@
         xmlns:cdv="http://cordova.apache.org/ns/1.0"
         id          = "ml.mixnet.www"
         versionCode = "10"
-        version     = "1.0.0">
+        version     = "1.1.0">
 
-    <name>ТЕСТ. www.mixnet.ml</name>
+    <name>ТЕСТ. MixNet</name>
 
     <description>
-        Официальное WebView приложение социальной сети MixNet
+        Добро пожаловать в MixNet! Делитесь своим творчеством с другими, объединяйтесь в группы, общайтесь с друзьями и многое другое...
     </description>
 
     <author>Tadapp</author>
@@ -30,7 +30,7 @@
     <preference name='WindowsToastCapable' value='true' />
 
     <preference name="SplashMaintainAspectRatio" value="true" />
-    <preference name="SplashScreenSpinnerColor" value="#007BFF" />
+    <preference name="SplashScreenSpinnerColor" value="#FFFFFF" />
     
     <platform name="android">
       <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
@@ -40,17 +40,17 @@
 
 
     <platform name="android">
-        <icon src="res/android/icon/b5a6b32e9ef1ea92ba11c4caaff8f664.png" density="ldpi" />
-        <icon src="res/android/icon/84140adb63d37f35dec1a9ce6954af83.png" density="mdpi" />
-        <icon src="res/android/icon/38ffde769581665076aa0d40655f049b.png" density="hdpi" />
-        <icon src="res/android/icon/5bb0e911f0d02da8d3f39c05fff49274.png" density="xhdpi" />
-        <icon src="res/android/icon/1bd45f8f4c41579983d75bf4dad6f7f5.png" density="xxhdpi" />
-        <icon src="res/android/icon/ba69127391c1ff5f05ff84bd59c31df0.png" density="xxxhdpi" />
+        <icon src="res/android/icon/888d59c1874dd878097504d188f087f2.png" density="ldpi" />
+        <icon src="res/android/icon/287e372bb4a1df93e94d36d9aecf862d.png" density="mdpi" />
+        <icon src="res/android/icon/74649abb59e7f2386515ff18fb1d43e5.png" density="hdpi" />
+        <icon src="res/android/icon/76a6c6bf23a3b89745d5be28307e814a.png" density="xhdpi" />
+        <icon src="res/android/icon/c4e5cafeb521842f1aa3a18187227cbf.png" density="xxhdpi" />
+        <icon src="res/android/icon/1a2d331764eef23b557538f6d99f443e.png" density="xxxhdpi" />
 
-        <splash src="res/android/screen/746b3923c1957d5f328c21a25b1a2e48.png" density="port-hdpi"/>
-        <splash src="res/android/screen/00a4057c9fc62e4576dbce42d9a6d76c.png" density="port-ldpi"/>
-        <splash src="res/android/screen/dfd58c1d0944ae1d7c5f787ac96f5974.png" density="port-mdpi"/>
-        <splash src="res/android/screen/0200ecad15ed1ab34f374aea854283e5.png" density="port-xhdpi"/>
+        <splash src="res/android/screen/611a1a0e48d52341c1d00eab6a36ae27.png" density="port-hdpi"/>
+        <splash src="res/android/screen/0281e8a890b7430dd40fdb14d25a3ce0.png" density="port-ldpi"/>
+        <splash src="res/android/screen/d08b1d3a40e81cfbad70128701892668.png" density="port-mdpi"/>
+        <splash src="res/android/screen/51f05c5eec214d5c9730b7197c51c599.png" density="port-xhdpi"/>
     </platform>
 
     <platform name="ios">
@@ -86,8 +86,8 @@
         <icon src="res/windows/icon/9e32fc0d9f7f2e4f270d94d53148094b.png" target="Square150x150Logo" />
         <icon src="res/windows/icon/e837e29892678c60c98684c8c0fdefb8.png" target="Square310x310Logo" />
 
-        <splash src="res/windows/screen/1673d6e2726683a29a2fef8361b13d58.png" target="SplashScreen"/>
-        <splash src="res/windows/screen/89979143ef8ccc2be4b09f55b90d867d.png" target="SplashScreenPhone"/>
+        <splash src="res/windows/screen/57bc1f28bb2eb3b28f757f26dc1ee2d0.png" target="SplashScreen"/>
+        <splash src="res/windows/screen/4a3694782a456fd391c4f98577f7d110.png" target="SplashScreenPhone"/>
     </platform>
 
     <access origin='*'/>
